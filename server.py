@@ -15,7 +15,7 @@ if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
 BUCKET_NAME = "webweaver"
-GEMINI_API_KEY = "AIzaSyCm3Q104ZTdaptEtlsUOuTrYip0Gyc5oQA"  # Replace with actual key
+GEMINI_API_KEY = "key"  # Replace with actual key
 
 def convert_audio(file_path):
     """Convert audio to WAV format with 16kHz sample rate."""
